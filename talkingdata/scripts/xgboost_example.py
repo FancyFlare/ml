@@ -131,5 +131,5 @@ print('Length of test: ', len(test))
 print('Features [{}]: {}'.format(len(features), sorted(features)))
 test_prediction, score = run_xgb(train, test, features, 'group')
 print("LS: {}".format(round(score, 5)))
-create_submission(score, test, test_prediction)
+#create_submission(score, test, test_prediction)
 
